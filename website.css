@@ -1,0 +1,157 @@
+/** General **/
+
+body {
+    color: #000;
+    font-family: Times, serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+h1 {
+    color: #e64326;
+    font-family: Helvetica;
+}
+h1 i {
+    color: #838383;
+    font-family: Times,serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 15px;
+}
+iframe.video{
+	width:600px;
+  	height: 400px;
+    margin: 3em;
+    border: 5px solid #fff;
+}
+
+/** Navigation **/
+
+.nav {
+    background: #000;
+    border-bottom: 3px solid #e64326;
+}
+.nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.nav a {
+	display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Helvetica, sans-serf;
+    padding: 2em 2em 1em 3em;
+}
+.nav li {
+    float: left;
+}
+.nav a:hover {
+    color:  #e64326;
+    background-color: #111;
+}
+li.current a {
+    color: #e64326;
+}
+
+/** Header **/
+
+.header {
+    color: #444;
+    background-image: url(afbeeldingen/Scenery.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: cover;
+    font-family: "Brush Script MT";
+    font-size: 50px;
+    text-align: right;
+    padding: 2em 0.7em 2em 2em; 
+}
+.header strong{
+    color: #e64326;
+}
+
+/** Mid **/
+
+.midtop {
+    background-color: #eee;
+    width: 100%;
+}
+div.float, .midtop {
+    float: left;
+}
+div.midtop img {
+    width: 350px;
+    border: 5px solid #fff;    
+}
+div.float {
+    max-width: 500px;
+    margin: 3em;
+}
+.midbottom {
+    padding:3em;
+}
+.midbottom img {
+    width: 300px;
+    border: 5px solid #eee;
+    margin: 0 2em 1em 0;
+}
+table {
+    width: 75%;
+    margin: 3em 0em 3em 3em;
+    border-collapse: collapse;
+    border: 1px solid #555;
+}
+th, tr{
+    border: 1px solid #eee;
+}
+
+table th{
+    background: #e64326;
+    color: #fff;
+}
+
+table tr{
+    text-align: center;
+}
+
+table tr.even{
+    background: #eee;
+}
+
+.footer, .midbottom {
+    clear:both;
+}
+
+
+/** Footer **/
+
+.footer {
+    background: #000;
+    height: 150px;
+    border-top:  3px solid #e64326;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Helvetica;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5em;
+}
+.footer li {
+    padding-right: 0.3em;
+}
+.footer a:hover {
+    color:  #e64326;
+}
+.footer p {
+    color: #e64326;
+    text-align: center;
+}
